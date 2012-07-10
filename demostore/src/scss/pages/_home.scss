@@ -1,0 +1,408 @@
+.x-home {
+
+	.x-gridhero {
+	
+		@include pie-clearfix;
+		
+		margin: 10px;
+		font-size: 0;
+		
+		.x-grid-0 {
+		
+			width: 100%;
+			margin-bottom: 5px;
+			@include border-radius();
+			overflow: hidden;
+		
+		}
+		
+		.x-grid-1,.x-grid-2{
+			width: 49%;
+			float: left;
+			@include border-radius();
+			overflow: hidden;
+		}
+		
+		.x-grid-2 {
+			float: right;
+		}
+		
+		img {
+			
+			width: 100%;
+			
+		}
+		
+	}
+		
+	.x-slideshow-outer {
+		
+		margin: 10px;
+		
+		overflow: hidden;
+		
+		.x-slideshow-items {
+		
+			white-space:nowrap;
+					
+			a {
+			
+				display: inline-block;
+				vertical-align: top;
+				
+				width: 100%;
+				margin-right: 10px;
+				
+				@include border-radius(5px);
+				overflow: hidden;
+				
+				font-size: 0;
+				
+				img {
+				
+					width: 100%;
+				
+				}
+			}
+			
+		}
+		
+		#x-slideshow-nav {
+		
+			position: relative;
+			
+			margin: 10px 0 0 0;
+			
+			#x-dots {
+				
+				width: 270 / $container_width * 100%;
+				margin: 0 auto;
+				text-align: center;
+				
+				.x-dot {
+					
+					display: inline-block;
+					width: 11px;
+					height: 11px;
+					
+					@include icons-sprite(slider-dot);
+					
+					overflow: hidden;
+					text-indent: -9999px;
+					
+				}
+				
+				.x-current {
+					
+					@include icons-sprite(slider-dot-active);
+					
+				}
+				
+			}
+			
+			#x-prev, #x-next {
+			
+				position: absolute;
+				top: 0;
+				
+				width: 7px;
+				height: 13px;
+				
+				overflow: hidden;
+				text-indent: -9999px;
+				
+			}
+			
+			#x-prev {
+				
+				left: 0;
+				@include icons-sprite(slider-left);
+				
+			}
+			
+			#x-next {
+			
+				right: 0;
+				@include icons-sprite(slider-right);
+			
+			}
+			
+		}
+		
+	}
+	
+	.form-subscribe {
+		margin: 10px;
+		padding: 10px;
+		
+		background: #ededed;
+		text-shadow: 0 1px 0 white;
+		
+		.form-subscribe-header {
+		
+			margin: 0 0 5px;
+		
+			text-transform: uppercase;
+			color: $darkpurple;
+			font-weight: bold;
+		
+		}
+		
+		label {
+		
+			font-size: 14 / $default-font-size * 1em;
+			
+		}
+		
+		#newsletter {
+		
+			width: 96%;
+			padding: 9px 2%;
+		
+			margin: 10px 0;
+			
+			border: 1px solid #FF7E00;
+			@include border-radius();
+			
+			-webkit-appearance: none;
+			
+			color: #666;
+			font-size: 14 / $default-font-size * 1em;
+		
+		}
+		
+		button {
+			
+			@include yellowbutton;
+			padding: 5px 10px;
+						
+			span {
+				color: $darkpurple;
+				text-shadow: 0 1px 0 $lightyellow;
+				font-weight: bold;
+			}
+			
+		}
+	}
+	
+	.block-poll {
+		margin: 10px;
+		padding: 10px;
+		
+		background: #ededed;
+		text-shadow: 0 1px 0 white;
+		
+		.block-title {
+		
+			margin: 0 0 10px;
+		
+			text-transform: uppercase;
+			color: $darkpurple;
+			font-weight: bold;
+			
+		}
+		
+		.block-subtitle {
+			
+			font-size: 14 / $default-font-size * 1em;
+			font-weight: bold;
+			
+		}
+		
+		#poll-answers {
+		
+			margin: 10px 0;
+			
+			padding-top: 5px;
+			
+			border-top: 1px solid #ccc;
+			
+			li {
+				margin: 5px 0;
+				padding: 5px;
+				
+				&:nth-child(even) {
+					background: #ededed*0.95;
+				}
+				
+			}
+			
+			input {
+			
+				margin-right: 15px;				
+			
+			}
+		
+		}
+		
+		button {
+			
+			@include yellowbutton;
+			padding: 5px 10px;
+						
+			span {
+				color: $darkpurple;
+				text-shadow: 0 1px 0 $lightyellow;
+				font-weight: bold;
+			}
+			
+		}
+		
+		
+	}
+	
+	#categories {
+	
+		.block-title {
+		
+			border-bottom: 1px solid #ccc;
+			@include box-shadow(white 0 1px 0 inset);
+			@include background-image(linear-gradient(#ddd, #ebebeb));
+			cursor: pointer;
+		
+			a {
+				
+				display: block;
+				margin: 0 20px;
+								
+				line-height: 48px;
+				font-size: 16 / $default-font-size * 1em;
+				font-weight: bold;
+				color: $purple;
+				text-shadow: 0 1px 0 white;
+				text-decoration: none;
+				
+				background: url(i/icons/slider-right.png) no-repeat;
+				background-position: right;
+				
+			}
+			
+			&.x-on {
+			
+				a {
+					color: black;
+					background-image: url(i/icons/slider-down.png);
+				}
+				
+			}
+			
+		}
+		
+		.block:first-child .block-title {
+			border-top: 1px solid #ccc;
+		}
+		
+		.links {
+		
+			padding: 20px;
+			
+			li {
+			
+				display: inline-block;
+				vertical-align: top;
+				width: 45%;
+				padding: 5px 2%;
+				font-weight: bold;
+				
+				font-size: 0.8em;
+				
+				a {
+					text-decoration: none;
+					color: $purple;
+				}
+			}
+		}
+		
+	}
+	
+	#x-gridcategories {
+	
+		@include pie-clearfix;
+	
+		margin: 10px;
+		
+		.x-grid {
+		
+			float: left;
+			width: 48.5%;
+			margin-bottom: 5px;
+			
+			@include yellowbutton;
+			
+			padding: 0;
+			
+			&:nth-child(even) {
+				float: right;
+			}
+			
+			a {
+			
+				display: block;
+				width: 100%;
+				height: 100px;
+				
+				line-height: 155px;
+				text-align: center;
+				font-size: 16 / $default-font-size * 1em;
+				font-weight: bold;
+				color: $purple;
+				text-shadow: 0 1px 0 $lightyellow;
+				text-decoration: none;
+				
+				background: url(i/icons/potions.png) center 18px no-repeat;
+				
+			}
+			
+			&.x-grid-1 a {	background: url(i/icons/cauldron.png) center 18px no-repeat; }
+			&.x-grid-2 a {	background: url(i/icons/ingredients.png) center 18px no-repeat; }
+			&.x-grid-3 a {	background: url(i/icons/books.png) center 18px no-repeat; }
+			
+		}
+		
+	}
+	
+}
+
+.x-landscape {
+
+	.x-home .block-poll #poll-answers li {
+		
+		float: left;
+		width: 46%;
+		padding: 2%;
+		
+		background: none;
+		
+		&:nth-child(even) {
+			
+			background: none;
+		
+		}
+		
+	}
+	
+	.x-home #x-gridcategories .x-grid {
+		width: 49%;
+	}
+	
+	.x-home .form-subscribe {
+	
+		@include pie-clearfix;
+		
+		#newsletter {
+			float: left;
+		}
+		
+		button {
+			float: left;
+			margin-left: -100px;
+			width: 100px;
+			padding: 0;
+			height: 36px;
+			margin-top: 10px;
+			
+			@include border-radius(0 $default-border-radius $default-border-radius 0);
+		}
+	}
+
+}

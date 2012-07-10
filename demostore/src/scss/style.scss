@@ -1,0 +1,15 @@
+// Default
+@import "compass";
+@import "compass/css3"; 
+@import "compass/utilities";
+@import "base/scss/_reset.scss";
+@import "_defaults.scss";
+
+// Modules
+@import "base/scss/modules/_grid.scss";
+@import "base/scss/modules/_slide.scss";
+@import "modules/_footer.scss";
+@import "modules/_header.scss";
+
+// Pages
+@import "pages/_home.scss";

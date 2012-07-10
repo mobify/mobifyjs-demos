@@ -1,0 +1,965 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.11\.5\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000317}}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.11\.5\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000320}}
+body {
+  line-height: 1;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.11\.5\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000322}}
+ol, ul {
+  list-style: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.11\.5\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000324}}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.11\.5\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000326}}
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.11\.5\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000328}}
+q, blockquote {
+  quotes: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.11\.5\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\00003101}}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.11\.5\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000330}}
+a img {
+  border: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.11\.5\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\00003114}}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.11\.5\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\00003114}}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/lib\/node_modules\/mobify-client\/vendor\/mobify-js\/1\.1\/base\/scss\/_reset\.scss}line{font-family:\000037}}
+strong,
+b {
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/lib\/node_modules\/mobify-client\/vendor\/mobify-js\/1\.1\/base\/scss\/_reset\.scss}line{font-family:\0000312}}
+em,
+i {
+  font-style: italic;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/lib\/node_modules\/mobify-client\/vendor\/mobify-js\/1\.1\/base\/scss\/_reset\.scss}line{font-family:\0000316}}
+p, blockquote {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/lib\/node_modules\/mobify-client\/vendor\/mobify-js\/1\.1\/base\/scss\/_reset\.scss}line{font-family:\0000320}}
+mark {
+  background: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/_defaults\.scss}line{font-family:\0000314}}
+html {
+  -webkit-text-size-adjust: none;
+  /* Prevent font scaling in landscape */
+  font: 100%/1.4 Helvetica, Arial, sans-serif;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/icons}line{font-family:\0000387}}
+.icons-sprite, header .x-cart a span, header #search_mini_form .form-search button.button span span, .x-home .x-slideshow-outer #x-slideshow-nav #x-dots .x-dot, .x-home .x-slideshow-outer #x-slideshow-nav #x-dots .x-current, .x-home .x-slideshow-outer #x-slideshow-nav #x-prev, .x-home .x-slideshow-outer #x-slideshow-nav #x-next {
+  background: url('i/../i/icons-s4eb729f566.png') no-repeat;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/lib\/node_modules\/mobify-client\/vendor\/mobify-js\/1\.1\/base\/scss\/modules\/_slide\.scss}line{font-family:\0000346}}
+.x-slide-dots {
+  display: none;
+  position: relative;
+  z-index: 9999;
+  text-align: center;
+  margin-top: 8px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/lib\/node_modules\/mobify-client\/vendor\/mobify-js\/1\.1\/base\/scss\/modules\/_slide\.scss}line{font-family:\0000354}}
+.x-slide-dots.on {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/lib\/node_modules\/mobify-client\/vendor\/mobify-js\/1\.1\/base\/scss\/modules\/_slide\.scss}line{font-family:\0000358}}
+.x-slide-dots span {
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  margin: 4px 8px;
+  border: 1px solid #999;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -o-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -khtml-border-radius: 4px;
+  border-radius: 4px;
+  text-indent: -9999px;
+  background: #ddd;
+  vertical-align: middle;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/lib\/node_modules\/mobify-client\/vendor\/mobify-js\/1\.1\/base\/scss\/modules\/_slide\.scss}line{font-family:\0000370}}
+.x-slide-dots span.x-current {
+  background: #003F74 !important;
+  border-color: #003F74;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/modules\/_footer\.scss}line{font-family:\000031}}
+footer {
+  margin-top: 10px;
+  padding: 5px 0 15px 0;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #652c90), color-stop(100%, #440e62));
+  background-image: -webkit-linear-gradient(#652c90, #440e62);
+  background-image: -moz-linear-gradient(#652c90, #440e62);
+  background-image: -o-linear-gradient(#652c90, #440e62);
+  background-image: -ms-linear-gradient(#652c90, #440e62);
+  background-image: linear-gradient(#652c90, #440e62);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/modules\/_footer\.scss}line{font-family:\000038}}
+footer .x-banner {
+  margin: -5px 0 0 0;
+  padding: 10px;
+  background: black;
+  color: white;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  font-size: 0.813em;
+  -moz-box-shadow: #7934ac 0 1px 0;
+  -webkit-box-shadow: #7934ac 0 1px 0;
+  -o-box-shadow: #7934ac 0 1px 0;
+  box-shadow: #7934ac 0 1px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/modules\/_footer\.scss}line{font-family:\0000322}}
+footer .x-banner em {
+  color: #ffd12c;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/modules\/_footer\.scss}line{font-family:\0000327}}
+footer .x-phone {
+  margin: 10px auto;
+  width: 90.625%;
+  text-align: center;
+  background: #31004a;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.25) 1px 3px 5px inset, #7934ac 0 1px 0;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 1px 3px 5px inset, #7934ac 0 1px 0;
+  -o-box-shadow: rgba(0, 0, 0, 0.25) 1px 3px 5px inset, #7934ac 0 1px 0;
+  box-shadow: rgba(0, 0, 0, 0.25) 1px 3px 5px inset, #7934ac 0 1px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/modules\/_footer\.scss}line{font-family:\0000339}}
+footer .x-phone a {
+  display: block;
+  height: 20px;
+  margin: 0 auto;
+  padding: 10px 0;
+  background: url(i/number.png) center 10px no-repeat;
+  color: #ffd12c;
+  text-decoration: none;
+  text-indent: -9999px;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/modules\/_footer\.scss}line{font-family:\0000355}}
+footer .x-nav {
+  text-align: center;
+  margin-top: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/modules\/_footer\.scss}line{font-family:\0000360}}
+footer .x-nav li {
+  display: inline-block;
+  padding: 0 10px;
+  font-size: 0.75em;
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/modules\/_footer\.scss}line{font-family:\0000367}}
+footer .x-nav li a {
+  color: white;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/modules\/_footer\.scss}line{font-family:\0000374}}
+footer address {
+  margin-top: 10px;
+  font-size: 0.75em;
+  color: #0a020e;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/modules\/_footer\.scss}line{font-family:\0000382}}
+footer .x-fullsite {
+  display: block;
+  margin: 10px auto;
+  width: 31.25%;
+  padding: 8px 3.125%;
+  background: #31004a;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.25) 1px 3px 3px inset, #7934ac 0 1px 0;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 1px 3px 3px inset, #7934ac 0 1px 0;
+  -o-box-shadow: rgba(0, 0, 0, 0.25) 1px 3px 3px inset, #7934ac 0 1px 0;
+  box-shadow: rgba(0, 0, 0, 0.25) 1px 3px 3px inset, #7934ac 0 1px 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 0.625em;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/modules\/_header\.scss}line{font-family:\000031}}
+header {
+  background: url(i/bg-header.jpg) repeat-x;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/modules\/_header\.scss}line{font-family:\000035}}
+header .x-logo {
+  display: block;
+  float: left;
+  width: 64.375%;
+  height: 54px;
+  padding: 10px 3.125% 0;
+  text-align: left;
+  background: url(i/bg-headerlighter.jpg) no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/modules\/_header\.scss}line{font-family:\0000319}}
+header .x-logo img {
+  max-width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/modules\/_header\.scss}line{font-family:\0000327}}
+header .x-withmenu {
+  width: 53.125%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/modules\/_header\.scss}line{font-family:\0000331}}
+header #x-menu {
+  float: right;
+  *zoom: 1;
+  padding: 13px 0 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.11\.5\/frameworks\/compass\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000338}}
+header #x-menu:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/modules\/_header\.scss}line{font-family:\0000339}}
+header #x-menu a {
+  display: block;
+  position: relative;
+  margin-right: 5px;
+  padding: 10px;
+  background-color: #ffd12c;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffd12c), color-stop(100%, #ffad09));
+  background-image: -webkit-linear-gradient(#ffd12c, #ffad09);
+  background-image: -moz-linear-gradient(#ffd12c, #ffad09);
+  background-image: -o-linear-gradient(#ffd12c, #ffad09);
+  background-image: -ms-linear-gradient(#ffd12c, #ffad09);
+  background-image: linear-gradient(#ffd12c, #ffad09);
+  -moz-box-shadow: #fff997 0 1px 0 inset;
+  -webkit-box-shadow: #fff997 0 1px 0 inset;
+  -o-box-shadow: #fff997 0 1px 0 inset;
+  box-shadow: #fff997 0 1px 0 inset;
+  border: 1px solid #ff7e00;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  text-decoration: none;
+  color: #440e62;
+  font-weight: bold;
+  line-height: 20px;
+  font-size: 0.75em;
+  text-transform: uppercase;
+  text-shadow: 0 1px 0 #fff997;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/modules\/_header\.scss}line{font-family:\0000362}}
+header .x-cart {
+  float: right;
+  padding: 13px 3.125% 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/modules\/_header\.scss}line{font-family:\0000368}}
+header .x-cart a {
+  display: block;
+  position: relative;
+  padding: 10px;
+  background-color: #ffd12c;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffd12c), color-stop(100%, #ffad09));
+  background-image: -webkit-linear-gradient(#ffd12c, #ffad09);
+  background-image: -moz-linear-gradient(#ffd12c, #ffad09);
+  background-image: -o-linear-gradient(#ffd12c, #ffad09);
+  background-image: -ms-linear-gradient(#ffd12c, #ffad09);
+  background-image: linear-gradient(#ffd12c, #ffad09);
+  -moz-box-shadow: #fff997 0 1px 0 inset;
+  -webkit-box-shadow: #fff997 0 1px 0 inset;
+  -o-box-shadow: #fff997 0 1px 0 inset;
+  box-shadow: #fff997 0 1px 0 inset;
+  border: 1px solid #ff7e00;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  text-decoration: none;
+  color: #440e62;
+  font-weight: bold;
+  line-height: 22px;
+  text-shadow: 0 1px 0 #fff997;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/modules\/_header\.scss}line{font-family:\0000382}}
+header .x-cart a span {
+  display: block;
+  height: 20px;
+  padding-left: 25px;
+  background-position: 0 -42px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/modules\/_header\.scss}line{font-family:\0000395}}
+header #nav {
+  *zoom: 1;
+  clear: both;
+  padding: 10px;
+  background-color: #ffd12c;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffd12c), color-stop(100%, #ffad09));
+  background-image: -webkit-linear-gradient(#ffd12c, #ffad09);
+  background-image: -moz-linear-gradient(#ffd12c, #ffad09);
+  background-image: -o-linear-gradient(#ffd12c, #ffad09);
+  background-image: -ms-linear-gradient(#ffd12c, #ffad09);
+  background-image: linear-gradient(#ffd12c, #ffad09);
+  -moz-box-shadow: #fff997 0 1px 0 inset;
+  -webkit-box-shadow: #fff997 0 1px 0 inset;
+  -o-box-shadow: #fff997 0 1px 0 inset;
+  box-shadow: #fff997 0 1px 0 inset;
+  border: 1px solid #ff7e00;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  -o-border-radius: 0;
+  -ms-border-radius: 0;
+  -khtml-border-radius: 0;
+  border-radius: 0;
+  border-left: none;
+  border-right: none;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.11\.5\/frameworks\/compass\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000338}}
+header #nav:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/modules\/_header\.scss}line{font-family:\00003106}}
+header #nav li {
+  float: left;
+  width: 30%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/modules\/_header\.scss}line{font-family:\00003111}}
+header #nav li a {
+  display: block;
+  padding: 10px;
+  border-right: 1px solid #ff7e00;
+  border-left: 1px solid #fff997;
+  text-align: center;
+  font-size: 0.875em;
+  font-weight: bold;
+  color: #440e62;
+  text-shadow: 0 1px 0 #fff997;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/modules\/_header\.scss}line{font-family:\00003129}}
+header #nav li:first-child {
+  width: 21%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/modules\/_header\.scss}line{font-family:\00003132}}
+header #nav li:first-child a {
+  border-left: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/modules\/_header\.scss}line{font-family:\00003136}}
+header #nav li:last-child {
+  width: 19%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/modules\/_header\.scss}line{font-family:\00003139}}
+header #nav li:last-child a {
+  border-right: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/modules\/_header\.scss}line{font-family:\00003147}}
+header #x-menu-items {
+  height: 0px;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/modules\/_header\.scss}line{font-family:\00003154}}
+header #x-menu-items #nav li {
+  width: 25%;
+  font-size: 0.75em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/modules\/_header\.scss}line{font-family:\00003159}}
+header #x-menu-items #nav li ul {
+  border-top: 1px solid #ff7e00;
+  -moz-box-shadow: #fff997 0 1px 0 inset;
+  -webkit-box-shadow: #fff997 0 1px 0 inset;
+  -o-box-shadow: #fff997 0 1px 0 inset;
+  box-shadow: #fff997 0 1px 0 inset;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/modules\/_header\.scss}line{font-family:\00003166}}
+header #x-menu-items #nav li li {
+  float: none;
+  width: 100%;
+  font-size: 1em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/modules\/_header\.scss}line{font-family:\00003173}}
+header #x-menu-items #nav li li a {
+  border: none;
+  text-align: left;
+  font-weight: normal;
+  word-wrap: break-word;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/modules\/_header\.scss}line{font-family:\00003190}}
+header #search_mini_form {
+  clear: both;
+  *zoom: 1;
+  padding: 10px 3.125%;
+  background: black;
+  -moz-box-shadow: #321648 0 1px 0 inset;
+  -webkit-box-shadow: #321648 0 1px 0 inset;
+  -o-box-shadow: #321648 0 1px 0 inset;
+  box-shadow: #321648 0 1px 0 inset;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.11\.5\/frameworks\/compass\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000338}}
+header #search_mini_form:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/modules\/_header\.scss}line{font-family:\00003203}}
+header #search_mini_form .form-search label {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/modules\/_header\.scss}line{font-family:\00003207}}
+header #search_mini_form .form-search input#search {
+  float: left;
+  width: 80%;
+  height: 18px;
+  padding: 8px 15% 8px 2%;
+  margin: 0 0 0 0;
+  border: 1px solid #FF7E00;
+  -moz-border-radius: 3px 0 0 3px;
+  -webkit-border-radius: 3px 0 0 3px;
+  -o-border-radius: 3px 0 0 3px;
+  -ms-border-radius: 3px 0 0 3px;
+  -khtml-border-radius: 3px 0 0 3px;
+  border-radius: 3px 0 0 3px;
+  -webkit-appearance: none;
+  color: #333;
+  font-size: 0.875em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/modules\/_header\.scss}line{font-family:\00003226}}
+header #search_mini_form .form-search button.button {
+  float: left;
+  width: 15%;
+  padding: 0;
+  margin: 0 0 0 -13.5%;
+  background: transparent;
+  cursor: pointer;
+  padding: 10px;
+  background-color: #ffd12c;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffd12c), color-stop(100%, #ffad09));
+  background-image: -webkit-linear-gradient(#ffd12c, #ffad09);
+  background-image: -moz-linear-gradient(#ffd12c, #ffad09);
+  background-image: -o-linear-gradient(#ffd12c, #ffad09);
+  background-image: -ms-linear-gradient(#ffd12c, #ffad09);
+  background-image: linear-gradient(#ffd12c, #ffad09);
+  -moz-box-shadow: #fff997 0 1px 0 inset;
+  -webkit-box-shadow: #fff997 0 1px 0 inset;
+  -o-box-shadow: #fff997 0 1px 0 inset;
+  box-shadow: #fff997 0 1px 0 inset;
+  border: 1px solid #ff7e00;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  -moz-border-radius: 0 3px 3px 0;
+  -webkit-border-radius: 0 3px 3px 0;
+  -o-border-radius: 0 3px 3px 0;
+  -ms-border-radius: 0 3px 3px 0;
+  -khtml-border-radius: 0 3px 3px 0;
+  border-radius: 0 3px 3px 0;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/modules\/_header\.scss}line{font-family:\00003240}}
+header #search_mini_form .form-search button.button span {
+  height: 26px;
+  width: 100%;
+  display: block;
+  padding: 8px 0 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/modules\/_header\.scss}line{font-family:\00003248}}
+header #search_mini_form .form-search button.button span span {
+  width: 20px;
+  height: 20px;
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  text-indent: -9999px;
+  overflow: hidden;
+  background-position: 0 -188px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/pages\/_home\.scss}line{font-family:\000033}}
+.x-home .x-gridhero {
+  *zoom: 1;
+  margin: 10px;
+  font-size: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.11\.5\/frameworks\/compass\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000338}}
+.x-home .x-gridhero:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/pages\/_home\.scss}line{font-family:\0000310}}
+.x-home .x-gridhero .x-grid-0 {
+  width: 100%;
+  margin-bottom: 5px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/pages\/_home\.scss}line{font-family:\0000319}}
+.x-home .x-gridhero .x-grid-1, .x-home .x-gridhero .x-grid-2 {
+  width: 49%;
+  float: left;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/pages\/_home\.scss}line{font-family:\0000326}}
+.x-home .x-gridhero .x-grid-2 {
+  float: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/pages\/_home\.scss}line{font-family:\0000330}}
+.x-home .x-gridhero img {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/pages\/_home\.scss}line{font-family:\0000338}}
+.x-home .x-slideshow-outer {
+  margin: 10px;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/pages\/_home\.scss}line{font-family:\0000344}}
+.x-home .x-slideshow-outer .x-slideshow-items {
+  white-space: nowrap;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/pages\/_home\.scss}line{font-family:\0000348}}
+.x-home .x-slideshow-outer .x-slideshow-items a {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  margin-right: 10px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  overflow: hidden;
+  font-size: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/pages\/_home\.scss}line{font-family:\0000361}}
+.x-home .x-slideshow-outer .x-slideshow-items a img {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/pages\/_home\.scss}line{font-family:\0000370}}
+.x-home .x-slideshow-outer #x-slideshow-nav {
+  position: relative;
+  margin: 10px 0 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/pages\/_home\.scss}line{font-family:\0000376}}
+.x-home .x-slideshow-outer #x-slideshow-nav #x-dots {
+  width: 84.375%;
+  margin: 0 auto;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/pages\/_home\.scss}line{font-family:\0000382}}
+.x-home .x-slideshow-outer #x-slideshow-nav #x-dots .x-dot {
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+  background-position: 0 -219px;
+  overflow: hidden;
+  text-indent: -9999px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/pages\/_home\.scss}line{font-family:\0000395}}
+.x-home .x-slideshow-outer #x-slideshow-nav #x-dots .x-current {
+  background-position: 0 -208px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/pages\/_home\.scss}line{font-family:\00003103}}
+.x-home .x-slideshow-outer #x-slideshow-nav #x-prev, .x-home .x-slideshow-outer #x-slideshow-nav #x-next {
+  position: absolute;
+  top: 0;
+  width: 7px;
+  height: 13px;
+  overflow: hidden;
+  text-indent: -9999px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/pages\/_home\.scss}line{font-family:\00003116}}
+.x-home .x-slideshow-outer #x-slideshow-nav #x-prev {
+  left: 0;
+  background-position: 0 -236px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/pages\/_home\.scss}line{font-family:\00003123}}
+.x-home .x-slideshow-outer #x-slideshow-nav #x-next {
+  right: 0;
+  background-position: 0 -249px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/pages\/_home\.scss}line{font-family:\00003134}}
+.x-home .form-subscribe {
+  margin: 10px;
+  padding: 10px;
+  background: #ededed;
+  text-shadow: 0 1px 0 white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/pages\/_home\.scss}line{font-family:\00003141}}
+.x-home .form-subscribe .form-subscribe-header {
+  margin: 0 0 5px;
+  text-transform: uppercase;
+  color: #440e62;
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/pages\/_home\.scss}line{font-family:\00003151}}
+.x-home .form-subscribe label {
+  font-size: 0.875em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/pages\/_home\.scss}line{font-family:\00003157}}
+.x-home .form-subscribe #newsletter {
+  width: 96%;
+  padding: 9px 2%;
+  margin: 10px 0;
+  border: 1px solid #FF7E00;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-appearance: none;
+  color: #666;
+  font-size: 0.875em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/pages\/_home\.scss}line{font-family:\00003174}}
+.x-home .form-subscribe button {
+  padding: 10px;
+  background-color: #ffd12c;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffd12c), color-stop(100%, #ffad09));
+  background-image: -webkit-linear-gradient(#ffd12c, #ffad09);
+  background-image: -moz-linear-gradient(#ffd12c, #ffad09);
+  background-image: -o-linear-gradient(#ffd12c, #ffad09);
+  background-image: -ms-linear-gradient(#ffd12c, #ffad09);
+  background-image: linear-gradient(#ffd12c, #ffad09);
+  -moz-box-shadow: #fff997 0 1px 0 inset;
+  -webkit-box-shadow: #fff997 0 1px 0 inset;
+  -o-box-shadow: #fff997 0 1px 0 inset;
+  box-shadow: #fff997 0 1px 0 inset;
+  border: 1px solid #ff7e00;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  padding: 5px 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/pages\/_home\.scss}line{font-family:\00003179}}
+.x-home .form-subscribe button span {
+  color: #440e62;
+  text-shadow: 0 1px 0 #fff997;
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/pages\/_home\.scss}line{font-family:\00003188}}
+.x-home .block-poll {
+  margin: 10px;
+  padding: 10px;
+  background: #ededed;
+  text-shadow: 0 1px 0 white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/pages\/_home\.scss}line{font-family:\00003195}}
+.x-home .block-poll .block-title {
+  margin: 0 0 10px;
+  text-transform: uppercase;
+  color: #440e62;
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/pages\/_home\.scss}line{font-family:\00003205}}
+.x-home .block-poll .block-subtitle {
+  font-size: 0.875em;
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/pages\/_home\.scss}line{font-family:\00003212}}
+.x-home .block-poll #poll-answers {
+  margin: 10px 0;
+  padding-top: 5px;
+  border-top: 1px solid #ccc;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/pages\/_home\.scss}line{font-family:\00003220}}
+.x-home .block-poll #poll-answers li {
+  margin: 5px 0;
+  padding: 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/pages\/_home\.scss}line{font-family:\00003224}}
+.x-home .block-poll #poll-answers li:nth-child(even) {
+  background: #e1e1e1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/pages\/_home\.scss}line{font-family:\00003230}}
+.x-home .block-poll #poll-answers input {
+  margin-right: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/pages\/_home\.scss}line{font-family:\00003238}}
+.x-home .block-poll button {
+  padding: 10px;
+  background-color: #ffd12c;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffd12c), color-stop(100%, #ffad09));
+  background-image: -webkit-linear-gradient(#ffd12c, #ffad09);
+  background-image: -moz-linear-gradient(#ffd12c, #ffad09);
+  background-image: -o-linear-gradient(#ffd12c, #ffad09);
+  background-image: -ms-linear-gradient(#ffd12c, #ffad09);
+  background-image: linear-gradient(#ffd12c, #ffad09);
+  -moz-box-shadow: #fff997 0 1px 0 inset;
+  -webkit-box-shadow: #fff997 0 1px 0 inset;
+  -o-box-shadow: #fff997 0 1px 0 inset;
+  box-shadow: #fff997 0 1px 0 inset;
+  border: 1px solid #ff7e00;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  padding: 5px 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/pages\/_home\.scss}line{font-family:\00003243}}
+.x-home .block-poll button span {
+  color: #440e62;
+  text-shadow: 0 1px 0 #fff997;
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/pages\/_home\.scss}line{font-family:\00003256}}
+.x-home #categories .block-title {
+  border-bottom: 1px solid #ccc;
+  -moz-box-shadow: white 0 1px 0 inset;
+  -webkit-box-shadow: white 0 1px 0 inset;
+  -o-box-shadow: white 0 1px 0 inset;
+  box-shadow: white 0 1px 0 inset;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #dddddd), color-stop(100%, #ebebeb));
+  background-image: -webkit-linear-gradient(#dddddd, #ebebeb);
+  background-image: -moz-linear-gradient(#dddddd, #ebebeb);
+  background-image: -o-linear-gradient(#dddddd, #ebebeb);
+  background-image: -ms-linear-gradient(#dddddd, #ebebeb);
+  background-image: linear-gradient(#dddddd, #ebebeb);
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/pages\/_home\.scss}line{font-family:\00003263}}
+.x-home #categories .block-title a {
+  display: block;
+  margin: 0 20px;
+  line-height: 48px;
+  font-size: 1em;
+  font-weight: bold;
+  color: #652c90;
+  text-shadow: 0 1px 0 white;
+  text-decoration: none;
+  background: url(i/icons/slider-right.png) no-repeat;
+  background-position: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/pages\/_home\.scss}line{font-family:\00003282}}
+.x-home #categories .block-title.x-on a {
+  color: black;
+  background-image: url(i/icons/slider-down.png);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/pages\/_home\.scss}line{font-family:\00003291}}
+.x-home #categories .block:first-child .block-title {
+  border-top: 1px solid #ccc;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/pages\/_home\.scss}line{font-family:\00003295}}
+.x-home #categories .links {
+  padding: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/pages\/_home\.scss}line{font-family:\00003299}}
+.x-home #categories .links li {
+  display: inline-block;
+  vertical-align: top;
+  width: 45%;
+  padding: 5px 2%;
+  font-weight: bold;
+  font-size: 0.8em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/pages\/_home\.scss}line{font-family:\00003309}}
+.x-home #categories .links li a {
+  text-decoration: none;
+  color: #652c90;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/pages\/_home\.scss}line{font-family:\00003318}}
+.x-home #x-gridcategories {
+  *zoom: 1;
+  margin: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.11\.5\/frameworks\/compass\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000338}}
+.x-home #x-gridcategories:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/pages\/_home\.scss}line{font-family:\00003324}}
+.x-home #x-gridcategories .x-grid {
+  float: left;
+  width: 48.5%;
+  margin-bottom: 5px;
+  padding: 10px;
+  background-color: #ffd12c;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffd12c), color-stop(100%, #ffad09));
+  background-image: -webkit-linear-gradient(#ffd12c, #ffad09);
+  background-image: -moz-linear-gradient(#ffd12c, #ffad09);
+  background-image: -o-linear-gradient(#ffd12c, #ffad09);
+  background-image: -ms-linear-gradient(#ffd12c, #ffad09);
+  background-image: linear-gradient(#ffd12c, #ffad09);
+  -moz-box-shadow: #fff997 0 1px 0 inset;
+  -webkit-box-shadow: #fff997 0 1px 0 inset;
+  -o-box-shadow: #fff997 0 1px 0 inset;
+  box-shadow: #fff997 0 1px 0 inset;
+  border: 1px solid #ff7e00;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/pages\/_home\.scss}line{font-family:\00003334}}
+.x-home #x-gridcategories .x-grid:nth-child(even) {
+  float: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/pages\/_home\.scss}line{font-family:\00003338}}
+.x-home #x-gridcategories .x-grid a {
+  display: block;
+  width: 100%;
+  height: 100px;
+  line-height: 155px;
+  text-align: center;
+  font-size: 1em;
+  font-weight: bold;
+  color: #652c90;
+  text-shadow: 0 1px 0 #fff997;
+  text-decoration: none;
+  background: url(i/icons/potions.png) center 18px no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/pages\/_home\.scss}line{font-family:\00003356}}
+.x-home #x-gridcategories .x-grid.x-grid-1 a {
+  background: url(i/icons/cauldron.png) center 18px no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/pages\/_home\.scss}line{font-family:\00003357}}
+.x-home #x-gridcategories .x-grid.x-grid-2 a {
+  background: url(i/icons/ingredients.png) center 18px no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/pages\/_home\.scss}line{font-family:\00003358}}
+.x-home #x-gridcategories .x-grid.x-grid-3 a {
+  background: url(i/icons/books.png) center 18px no-repeat;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/pages\/_home\.scss}line{font-family:\00003368}}
+.x-landscape .x-home .block-poll #poll-answers li {
+  float: left;
+  width: 46%;
+  padding: 2%;
+  background: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/pages\/_home\.scss}line{font-family:\00003376}}
+.x-landscape .x-home .block-poll #poll-answers li:nth-child(even) {
+  background: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/pages\/_home\.scss}line{font-family:\00003384}}
+.x-landscape .x-home #x-gridcategories .x-grid {
+  width: 49%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/pages\/_home\.scss}line{font-family:\00003388}}
+.x-landscape .x-home .form-subscribe {
+  *zoom: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.11\.5\/frameworks\/compass\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000338}}
+.x-landscape .x-home .form-subscribe:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/pages\/_home\.scss}line{font-family:\00003392}}
+.x-landscape .x-home .form-subscribe #newsletter {
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/shawnjan\/Projects\/mobify\/mobify-demo-store\/mobile\/src\/scss\/pages\/_home\.scss}line{font-family:\00003396}}
+.x-landscape .x-home .form-subscribe button {
+  float: left;
+  margin-left: -100px;
+  width: 100px;
+  padding: 0;
+  height: 36px;
+  margin-top: 10px;
+  -moz-border-radius: 0 3px 3px 0;
+  -webkit-border-radius: 0 3px 3px 0;
+  -o-border-radius: 0 3px 3px 0;
+  -ms-border-radius: 0 3px 3px 0;
+  -khtml-border-radius: 0 3px 3px 0;
+  border-radius: 0 3px 3px 0;
+}

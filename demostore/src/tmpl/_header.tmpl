@@ -1,0 +1,38 @@
+<header>
+    <div class="x-logo {?header.dropdownNav}x-withmenu{/header.dropdownNav}">
+        <a href="/"><img src='{config.configDir}i/logo.png'></a>
+    </div>
+
+    {?header.cartLink}
+        <div class="x-cart">
+            <a href="{header.cartLink}"><span>{header.cartValue}</span></a>
+        </div>
+    {/header.cartLink}
+
+    {?header.dropdownNav}
+        <nav id="x-menu">
+            <a href="#">Menu</a>
+        </nav>
+    {/header.dropdownNav}
+
+    {header.nav}
+
+    {header.search}
+
+    {?header.dropdownNav}
+        <div id="x-menu-items">
+            {header.dropdownNav}
+        </div>
+    {/header.dropdownNav}
+
+    {%script}
+        (function($) {
+             $('#x-menu').click(function() {
+                var hide = $(this).hasClass('open');
+                $(this).toggleClass('open');
+                var menu = $('#x-menu-items');
+                menu.animate({'height': hide ? 0 : menu.prop('scrollHeight') }, 200, 'ease-in');    
+            });            
+        })(Mobify.$);
+    {/script}
+</header>

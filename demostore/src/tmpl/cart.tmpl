@@ -1,0 +1,21 @@
+{>base/}
+
+{<scripts}
+    {script}
+{/scripts}
+
+{<content}
+
+        {#content}
+
+        {! The cart element only exists if there are items in the cart. !}
+        {?cart}
+        	{cart}
+        {:else}
+        	<h1>Shopping cart is empty</h1>
+        	<p>You have no items in your shopping cart.</p>
+        {/cart}
+
+        {/content}
+
+{/content}

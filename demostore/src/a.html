@@ -1,0 +1,46 @@
+<!doctype html><html><head><!-- MOBIFY ANALYTICS --><script>
+// GA doesn't fire on localhost.
+(function() {
+
+var bits = location.toString().split('#')[1].split('&')
+  , options = {}
+
+for (var i = 0; i < bits.length; i++) {
+    var pair = bits[i].split('=')
+    options[pair[0]] = decodeURIComponent(pair[1])
+}
+
+
+_gaq = [
+    // Google Analytics account.
+    ['_setAccount', options.a],
+    
+    // Leashed to the current load path.
+    ['_setCookiePath', location.pathname.split('/').slice(0, -1).join('/') + '/'],
+
+    // Track Referrer of the caller.
+    ['_setReferrerOverride', options.r],
+
+    // Mobified, 0 or 1
+    ['_setCustomVar', 4, 'mobi', 'y', +options.m],
+]
+
+if (options.t) _gaq.push(['_setCustomVar', 1, 't', '' + options.t])
+if (options.b) _gaq.push(['_setCustomVar', 1, 'build_dt', '' + options.b])
+if (options.l) _gaq.push(['_setCustomVar', 1, 'loadTime', '' + options.l])
+
+// Track URL of the caller.
+_gaq.push(['_trackPageview', options.u])
+
+// ###
+// # Google Analytics
+// ###
+
+var ga = document.createElement('script'); 
+ga.src = ('https:' == location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; 
+s.parentNode.insertBefore(ga, s);
+
+})();
+
+</script></head><body></body></html>

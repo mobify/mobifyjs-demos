@@ -1,0 +1,23 @@
+<footer>
+    {?footer.bannerText}
+        <div class="x-banner">
+            <p>{footer.bannerText}</p>
+        </div>
+    {/footer.bannerText}
+
+    {?footer.phone}
+        <div class="x-phone">
+            <a href="tel:{footer.phone}">{footer.phone}</a>
+        </div>
+    {/footer.phone}
+
+    <ul class="x-nav">
+        <li>{footer.aboutLink}</li>
+        <li>{footer.contactLink}</li>
+        <li>{footer.termsLink}</li>
+    </ul>
+
+    {footer.copyright}
+
+    <a class="x-fullsite" href="#" onclick="return Mobify.desktop()">Full Site</a>
+</footer>

@@ -1,0 +1,33 @@
+$purple: #652c90;
+$darkpurple: #440e62;
+$yellow: #ffd12c;
+$lightyellow: #fff997;
+$darkyellow: #ffad09;
+$darkorange: #ff7e00;
+
+$container_width: 320;
+
+$default-border-radius: 3px;
+
+$default-font-size: 16;
+
+html {
+	-webkit-text-size-adjust: none; /* Prevent font scaling in landscape */
+	font: 100%/1.4 Helvetica, Arial, sans-serif;
+}
+
+@mixin yellowgradient {
+	background-color: $yellow;
+	@include background-image(linear-gradient($yellow, $darkyellow));
+}
+
+@mixin yellowbutton {
+	padding: 10px;
+
+	@include yellowgradient;
+	@include box-shadow($lightyellow 0 1px 0 inset);
+	border: 1px solid $darkorange;
+	@include border-radius();
+}
+
+@import "../i/icons/*.png";

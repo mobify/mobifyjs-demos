@@ -1,0 +1,100 @@
+footer {
+
+	margin-top: 10px;
+	padding: 5px 0 15px 0;
+	
+	@include background-image(linear-gradient($purple, $darkpurple));
+
+	.x-banner {
+		margin: -5px 0 0 0;
+		padding: 10px;
+		
+		background: black;
+		
+		color: white;
+		font-weight: bold;
+		font-style: italic;
+		text-align: center;
+		font-size: 13 / $default-font-size * 1em;
+		
+		@include box-shadow(($purple * 1.2) 0 1px 0);
+		
+		em {
+			color: $yellow;
+		}
+	}
+	
+	.x-phone {
+		
+		margin: 10px auto;
+		
+		width: 290 / $container_width * 100%;
+		
+		text-align: center;
+		background: #31004a;
+		
+		@include border-radius(5px);
+		@include box-shadow(rgba(0,0,0,0.25) 1px 3px 5px inset, ($purple * 1.2) 0 1px 0);
+		
+		a {
+			display: block;
+			
+			height: 20px;
+			
+			margin: 0 auto;
+			padding: 10px 0;
+			
+			background: url(i/number.png) center 10px no-repeat;
+			color: $yellow;
+			text-decoration: none;
+			text-indent: -9999px;
+			overflow: hidden;
+		}
+	}
+	
+	.x-nav {
+		
+		text-align: center;
+		margin-top: 10px;
+		
+		li {
+			display: inline-block;
+			padding: 0 10px;
+			
+			font-size: 12 / $default-font-size * 1em;
+			font-weight: bold;
+			
+			a {
+				color: white;
+				text-decoration: none;
+			}
+		}
+	}
+	
+	address {
+		margin-top: 10px;
+	
+		font-size: 12 / $default-font-size * 1em;
+		color: $darkpurple * 0.15;
+		text-align: center;
+	}
+	
+	.x-fullsite {
+		display: block;
+	
+		margin: 10px auto;
+		width: 100 / $container_width * 100%;
+		padding: 8px ((10 / $container_width) * 100%);
+	
+		background: #31004a;
+		@include border-radius(5px);
+		@include box-shadow(rgba(0,0,0,0.25) 1px 3px 3px inset, ($purple * 1.2) 0 1px 0);
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 10 / $default-font-size * 1em;
+		color: white;
+		text-decoration: none;
+		font-weight: bold;
+	}
+	
+}
