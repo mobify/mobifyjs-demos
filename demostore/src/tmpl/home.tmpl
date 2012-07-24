@@ -2,37 +2,23 @@
 
 {<content} 
 
-	{?content.sliderHero}
-	
-	    <div class="x-slideshow-outer">
-			<div class="x-slideshow-items">
-		    	{content.sliderHero}
-		    </div>
-	    	<div id="x-slideshow-nav">
-	    		<div id="x-dots">
-	    			{#content.sliderHero}
-			    		<span class="x-dot">.</span>
-		    		{/content.sliderHero}
-	    		</div>
-	    		<span id="x-prev">Prev</span> <span id="x-next">Next</span> 
-	    	</div>
-	    </div>
-	    
-    {/content.sliderHero}
-    
-    {?content.gridHero}
-    
-    	<div class="x-gridhero">
-	    	{#content.gridHero}
-	    		<div class="x-grid-{@idx}{.}{/idx}">
-	    			{.}
-	    		</div>
-    		{/content.gridHero}
-    	</div>
-    
-    {/content.gridHero}
-    
-    {content.poll}
+    <div class="x-slideshow-outer">
+        <div class="x-slideshow-items">
+            {content.sliderHero}
+        </div>
+        <div id="x-slideshow-nav">
+            <div id="x-dots">
+                {#content.sliderHero}
+                    <span class="x-dot">.</span>
+                {/content.sliderHero}
+            </div>
+            <span id="x-prev">Prev</span> <span id="x-next">Next</span> 
+        </div>
+    </div>
+
+    {?content.poll}
+        {content.poll}
+    {/content.poll}
     
 {/content}
 

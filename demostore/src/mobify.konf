@@ -48,29 +48,8 @@
         {
             'templateName': 'home'
 
-            // Random Grid Hero Image Layout
-            , '!gridHero': function() {
-            
-                var heroElems = $('#hero a');
-                
-                var shuffle = function(o) { // Pick a random hero order (http://stackoverflow.com/a/5991990)
-                    var j, x, i = o.length; 
-                    while (i) {
-                       j = parseInt(Math.random() * i);
-                       x = o[--i];
-                       o[i] = o[j];
-                       o[j] = x;
-                    }
-                }
-
-                shuffled = shuffle(heroElems);
-                
-                return heroElems;
-            }
-            
             // Image Slider
-            , 'sliderHero': function(context) {
-                context.data('gridHero', ''); // Don't render gridHero if this is visible
+            , '!sliderHero': function(context) {
                 return $('#hero a');
             }
 
