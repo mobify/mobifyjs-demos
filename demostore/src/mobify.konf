@@ -38,12 +38,6 @@
 	, 'aboutLink': function() {
 		return $('.footer a.about');
 	}
-	, 'contactLink': function() {
-		return $('.footer a[title="Contact Us"]');
-	}
-	, 'termsLink': function() {
-		return $('.footer a[title="Terms of Use"]');
-	}
 	, 'copyright': function() {
 		return $('.footer address');
 	}
@@ -59,7 +53,7 @@
             
                 var heroElems = $('#hero a');
                 
-                shuffle = function(o) { // Pick a random hero order (http://stackoverflow.com/a/5991990)
+                var shuffle = function(o) { // Pick a random hero order (http://stackoverflow.com/a/5991990)
                     var j, x, i = o.length; 
                     while (i) {
                        j = parseInt(Math.random() * i);
@@ -80,38 +74,10 @@
                 return $('#hero a');
             }
 
-            // Accordion Menu Category Selection
-            , 'accordionCategories': function() {
-                return $('#categories');
-            }
-            
-            // Grid-based Category Selection
-            , 'gridCategories': function(context) {
-                context.data('accordionCategories', ''); // Don't render accordionCategories if this is visible
-                
-                return $('#categories .block-title');
-            }
-            
-            // Newsletter Block ///////////
-            , 'newsletterSignup': function() {
-                return $('.form-subscribe');
-            }
             // Poll Block
             , 'poll': function() {
                 return $('.block-poll');
             }
-        },{
-             // @url /index.php/products/
-             // Renders the products template if $('.category-products') evaluates. 
-            templateName: 'products'
-
-            // extract the products div from the products page
-            , '!products': function() { 
-                var products = $('.category-products'); 
-                products.find('.limiter, .view-mode').remove();
-                return products;
-            }
-
         },{
             // @url /index.php/starter-potion.html
             // Renders the product template if the following required variables evaluate to truthy
@@ -126,6 +92,12 @@
                 $('.zoom-notice', productView).remove();
                 // remove tagging functionality for logged in customers
                 $('.box-tags', productView).remove();
+                // remove email friend feature
+                $('.email-friend').remove();
+                // remove compare
+                $('.add-to-links').remove();
+                // remove add to cart until checkout is mobified and styled
+                $('.add-to-cart').remove();
 
                 return productView;
 
@@ -134,7 +106,7 @@
             , 'breadcrumbs': function() { 
                 return $('.breadcrumbs'); 
             }
-        },{
+        }/*,{ // Commented out until proper styling is added to these pages
             templateName: 'cart'
             // Extract the cart div.
             , '!is_cart': function() {
@@ -184,7 +156,7 @@
             , '!account': function() {
                 return $('.dashboard .welcome-msg');
             }
-        }
+        }*/
     )
 }
 
